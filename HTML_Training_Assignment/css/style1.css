@@ -177,3 +177,11 @@ li{
     margin-left: 70px;
 }
 
+.new-products{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 219px;
+    height: 116px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+}
