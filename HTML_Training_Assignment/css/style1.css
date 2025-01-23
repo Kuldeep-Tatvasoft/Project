@@ -1,0 +1,179 @@
+body{
+    background-color: #E9E9E9;
+}
+
+.main-container{
+    display: flex;
+    height: 100%;
+    padding: 3;
+}
+.header{
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    display: flex;
+}
+.menu-image{
+    height: 12px;
+    width: 18px;
+    
+}
+
+.logo-image{
+    width: 142px;
+    height: 30px;
+}
+
+.search-icon{
+    width: 16px;
+    height: 16px;
+    margin-left: 77px;
+}
+
+.search{
+    justify-content: center;
+    align-items: center;
+}
+
+.search span{
+    margin-left: 16px;
+}
+
+#search{
+    border: none;
+}
+.notification-icon{
+    width: 22px;
+    height: 21px;
+    margin-left: 900px;
+}
+
+.profile{
+    width: 44px;
+    height: 44px;
+    margin-left: 50px;
+}
+
+.noti-pro span{
+    margin-left: 12px;
+    align-items: center;
+
+}
+
+.select{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.navbar{
+    display: flex;
+   
+    
+}
+
+.bullet{
+    
+    list-style-type: none;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: red;
+    background-color: #FFF3F4;
+    
+}
+
+.dsh-img{
+    height: 18px;
+    width: 18px;
+
+}
+
+.analysis{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.anl-img{
+    height: 18px;
+    width: 18px;
+}
+
+.inbox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inb-img{
+    height: 18px;
+    width: 18px;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.his-img{
+    height: 18px;
+    width: 18px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.usr-img{
+    height: 18px;
+    width: 18px;
+}
+
+.maintenance{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main-img{
+    height: 18px;
+    width: 18px;
+}
+
+.setting{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.set-img{
+    height: 18px;
+    width: 18px;
+}
+li{
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.sub-container{
+    display: flex;
+    
+}
+.dash-title{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.dash-container{
+    background-color: #FAFAFA;
+    width: 100%;
+    margin-left: 70px;
+}
+
