@@ -6,6 +6,7 @@ body{
     display: flex;
     height: 100%;
     padding: 3;
+    
 }
 .header{
     align-items: center;
@@ -165,6 +166,7 @@ li{
 .sub-container{
     display: flex;
     
+    
 }
 .dash-title{
     margin-left: 40px;
@@ -174,14 +176,54 @@ li{
 .dash-container{
     background-color: #FAFAFA;
     width: 100%;
+    height: 100;
     margin-left: 70px;
+    height: 875px;
 }
 
-.new-products{
-    margin-top: 100px;
-    margin-left: 100px;
+
+.products{
+    margin-top: 30px;
+    /* margin-left: 30px; */
     width: 219px;
     height: 116px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+}
+
+.pro-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.product-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.sale{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 802px;
+    height: 400px;
+   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    
+}
+
+.sale-text{
+    display: flex;
+    justify-content:center;
+    
 }
