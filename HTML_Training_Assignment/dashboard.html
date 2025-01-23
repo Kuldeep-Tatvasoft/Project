@@ -144,14 +144,202 @@
 
                 </div>
                 
-                <div class="sale d-flex" >
-                    <span class="fw-bold fs-5" >Sale</span>
+                <div class="d-flex">
 
-                    <div  class="sale-text">
+                    <div class="sale d-flex flex-column" >
 
-                        <span class="">Weekly</span>
-                        <span>Monthly</span>
-                        <span class="">Yearly</span>
+                        <div class="s-text d-flex justify-content-between">
+                            <span class="fw-bold fs-5 mx-4" >Sale</span>
+    
+                            <div  class="sale-text gap-2 ">
+        
+                                <span class="">Weekly</span>
+                                <span>Monthly</span>
+                                <span class="year">Yearly</span>
+                            </div>
+                        </div>
+                    
+                    <div class="mx-4">
+                        <img src="./images/images/data-graph.png" alt="" class="data-img">
+                    </div>
+                    </div>
+
+                    <div class="pie-chart p-3 ">
+                        <span id="pie-text"  class="fw-bold fs-5  ">Sales by Country</span>
+                        
+                        <img src="./images/images/pie-chart.svg" alt="" class="pie-img mx-5 ">
+
+                        <div class="d-flex gap-4 ">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/images/radio-checked-icon.svg" alt="" class="radio">
+                                <span >United States of America</span>
+                            </div>
+                            
+                            <div class="d-flex align-items-center">
+                                <img src="./images/images/canada.svg" alt="" class="radio">
+                                <span>Canada</span>
+    
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="r-i d-flex gap-5">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/images/Russia.svg" alt="" class="radio">
+                                <span >Russia</span>
+                            </div>
+                            
+                            <div class="d-flex align-items-center" id="india">
+                                <img src="./images/images/india.svg" alt="">
+                                <span >India</span>
+    
+                            </div>
+                            
+                            
+                        </div>
+                       
+                       
+
+                    </div>
+                </div>
+                
+                
+                <div class="invoices p-3">
+                    
+                    <div class="d-flex justify-content-between">
+                        <h3>Invoices</h3>
+                        <span class="text-danger">View All</span>
+                    </div>
+                    
+
+                    <div class="table-responsive my-5">
+                        <table class="table ">
+                            <tr>
+                                <th class="text-secondary">INVOICES</th>
+                                <th class="text-secondary">COMPANY NAME</th>
+                                <th class="text-secondary">EMAIL</th>
+                                <th class="text-secondary">DUE DATE</th>
+                                <th class="text-secondary">STATUS</th>
+                                <th class="text-secondary">AMOUNT</th>
+                            </tr>
+                            <tr>
+                                <td class="re">65515</td>
+                                <td>Public Adjudting Firm</td>
+                                <td>georgia.ypong@example.com</td>
+                                <td>24 May,2020</td>
+                                <td  id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$47,800</td>
+                            </tr>
+                            <tr>
+                                <td>558612</td>
+                                <td>Other</td>
+                                <td>jessica.hanson@example.com</td>
+                                <td>24 May,2020</td>
+                                <td  id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$98,000</td>
+                            </tr>
+                            <tr>
+                                <td>558612</td>
+                                <td>Vendor</td>
+                                <td>alma.lawson@example.com</td>
+                                <td>8 Sep,2020</td>
+                                <td  id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$20,900</td>
+                            
+                            </tr>
+                            
+                            <tr>
+                                <td>558612</td>
+                                <td>Property Management Company</td>
+                                <td>kenz.lawson@example.com</td>
+                                <td>22 Oct,2020</td>
+                                <td  id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$10,570</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>651535</td>
+                                <td>Subconstroctor Company</td>
+                                <td>jackson.graham@example.com</td>
+                                <td>1 Feb,2020</td>
+                                <td id="failed">
+                                    <div class="fail">
+                                        Failed
+                                    </div>
+                                </td>
+                                <td>$10,200</td>
+
+                            </tr>
+                            <tr>
+                                <td>653518</td>
+                                <td>Mortgage Company</td>
+                                <td>felicia.reid@example.com</td>
+                                <td>22 Oct,2020</td>
+                                <td id="panding">
+                                    <div class="panding">
+                                        Panding 
+                                    </div>
+                                </td>
+                                <td>$12,600</td>
+                            </tr>
+                            <tr>
+                                <td>487451</td>
+                                <td>TPA</td>
+                                <td>dolores.chambers@example.com</td>
+                                <td>21 Sep,2020</td>
+                                <td id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$11,170</td>
+                            </tr>
+                            <tr>
+                                <td>267400</td>
+                                <td>Fire Department</td>
+                                <td>nevaeh.simmons@example.com</td>
+                                <td>17 Oct,2020</td>
+                                <td id="failed">
+                                    <div class="fail">
+                                        Failed
+                                    </div>
+                                </td>
+                                <td>$28,000</td>
+                            </tr>
+
+                            <tr>
+                                <td>449003</td>
+                                <td>Insurance Cerrier</td>
+                                <td>curtis.weaver@example.com</td>
+                                <td>21 Sep,2020</td>
+                                <td id="paid">
+                                    <div class="paided">
+                                        Paid 
+                                    </div>
+                                </td>
+                                <td>$10,000</td>
+                            </tr>
+                            
+
+                        </table>
+                        
                     </div>
                 </div>
             </div>
