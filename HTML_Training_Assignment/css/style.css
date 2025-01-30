@@ -4,22 +4,22 @@ body{
 .main-container{
     /* width: 1560px;
     height: 720px; */
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     align-items: center;
     background-color: #FAFAFA;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 
-.login-left-container{
+/* .login-left-container{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#hero-image{
+/* #hero-image{
     border: 20px solid white;
     border-radius: 50%;
     width: 576px;
@@ -96,5 +96,122 @@ body{
 
 .Register a{
     color: #C8242F;
+} */
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+.hero-img-div{
+    justify-content: center;
+}
+
+.circle-img {
+    width: 490px;
+    height: 490px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 20px solid #fafafa;
+}
+
+.circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-container {
+    max-width: 1000px;
+}
+
+.input {
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.strong-text{
+    color: red;
+}
+
+.login-btn {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 6px 20px;
+}
+
+.member-div {
+    font-size: 14px;
+}
+
+.forgot-div {
+    color:#ADADAD;
+}
+
+
+@media (min-width:768px) and (max-width: 1030px) {
+    .circle-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+}
+
+@media (min-width:360px) and (max-width: 480px) {
+    .hero-img-div{
+        align-content: center;
+        padding-left: 30%;
+        padding-bottom: 10%;
+    }
+
+}
+
+
+@media (min-width:480px) and (max-width: 768px) {
+    .hero-img-div{
+        align-content: center;
+        padding-left: 40%;
+        padding-bottom: 10%;
+    }
+
+}
+
+
+@media (min-width:360px) and (max-width: 768px) {
+    .circle-img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media (min-width:0px) and (max-width: 360px) {
+    .circle-img {
+        align-content: center;
+        justify-content: center;
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero-img-div{
+        /* align-items: center; */
+        justify-content: center;
+        align-content: center;
+        padding-left: 40%;
+        padding-bottom: 10%;
+        margin-left: 20%;
+    }
+
+
+
 }
 
